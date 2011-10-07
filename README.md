@@ -24,7 +24,7 @@ Then push the repo upstream
 
     git push
 
-That's it, you can now checkout your application at (default admin account is admin/admin):
+That's it, you can now checkout your application at:
 
     http://sympfonyphp-$your_domain.rhcloud.com
 
