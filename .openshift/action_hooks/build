@@ -5,3 +5,5 @@
 #
 # Secure some settings
 chmod -R 777 $OPENSHIFT_REPO_DIR/php/Symfony/app/cache
+chmod g+w  $OPENSHIFT_REPO_DIR/php/Symfony
+chmod g+w  $OPENSHIFT_REPO_DIR/php/Symfony/app
