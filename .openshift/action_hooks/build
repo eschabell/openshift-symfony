@@ -2,3 +2,6 @@
 # This is a simple build script, place your post-deploy but pre-start commands
 # in this script.  This script gets executed directly, so it could be python,
 # php, ruby, etc.
+#
+# Secure some settings
+chmod -R 777 $OPENSHIFT_REPO_DIR/php/Symfony/app/cache
