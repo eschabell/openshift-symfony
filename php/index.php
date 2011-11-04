@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Welcome to OpenShift</title>
+  <title>Welcome to Symfony on OpenShift</title>
   <style>
   html { background: black; }
   body {
@@ -264,35 +264,13 @@ W16LN5ZzKl4QD6YYj8FrAbyciMc6Vcry+O6PJxwj8MYzlgSTBZLeyvYTcvwLXqujHu9zS+axGQM+
 jrcq3gYOyVkvcjjwUWA53iD6KaGAhISEvC/xg+QaYFQiHivqXVAh7w7hLxKGhIS8XzkHeCoUj/cv
 /w+9BQu2G5s85QAAAABJRU5ErkJggg==">
   <h1>
-    Welcome to OpenShift
+    Welcome to Symfony on OpenShift
   </h1>
   <p>
-    Place your application here
+    To access Symfony demo installation, <a href="http://symfonyphp-ishereon.rhcloud.com/Symfony/web/app_dev.php/" target="_blank">click thru to Symfony 2.0</a>.
   </p>
   <p>
-    In order to commit to your new project, go to your projects git repo (created with the rhc-create-app command).  Make your changes, then run:
+    To view the demo, <a href="http://symfonyphp-ishereon.rhcloud.com/Symfony/web/app_dev.php/demo/hello/Fabien" target="_blank">check out Hello Fabien</a>.
   </p>
-  <pre>
-    git commit -a -m 'Some commit message'
-    git push
-  </pre>
-  <p>
-    Then reload this page.
-  </p>
-  
-  <h2>
-    What's next?
-  </h2>
-  <ul>
-    <li>
-      Why not visit us at <a href="http://openshift.redhat.com">http://openshift.redhat.com</a>, or
-    </li>
-    <li>
-      You could get help in the <a href="http://www.redhat.com/openshift">OpenShift forums</a>, or
-    </li>
-    <li>
-      You're welcome to come chat with us in our IRC channel at #openshift on freenode.net
-    </li>
-  </ul>
 </body>
 </html>

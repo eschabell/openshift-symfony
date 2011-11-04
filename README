@@ -7,9 +7,8 @@ libs/ - Additional libraries
 misc/ - For not-externally exposed php code
 ../data - For persistent data (full path in environment var: OPENSHIFT_DATA_DIR)
 deplist.txt - list of pears to install
-.openshift/action_hooks/build - Script that gets run every git push as part of the build process (on the CI system if available)
-.openshift/action_hooks/deploy - Script that gets run every git push after build but before the app is restarted
-.openshift/action_hooks/post_deploy - Script that gets run every git push after the app is restarted
+.openshift/action_hooks/build - Script that gets run every push, just prior to
+    starting your app
 
 
 Notes about layout
