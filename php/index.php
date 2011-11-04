@@ -267,10 +267,10 @@ jrcq3gYOyVkvcjjwUWA53iD6KaGAhISEvC/xg+QaYFQiHivqXVAh7w7hLxKGhIS8XzkHeCoUj/cv
     Welcome to Symfony on OpenShift
   </h1>
   <p>
-    To access Symfony demo installation, <a href="http://symfonyphp-ishereon.rhcloud.com/Symfony/web/app_dev.php/" target="_blank">click thru to Symfony 2.0</a>.
+    To access Symfony demo installation, <a href="http://<?php echo $_SERVER['SERVER_NAME'] ?>/Symfony/web/app_dev.php/" target="_blank">click thru to Symfony 2.0</a>.
   </p>
   <p>
-    To view the demo, <a href="http://symfonyphp-ishereon.rhcloud.com/Symfony/web/app_dev.php/demo/hello/Fabien" target="_blank">check out Hello Fabien</a>.
+    To view the demo, <a href="http://<?php echo $_SERVER['SERVER_NAME'] ?>/Symfony/web/app_dev.php/demo/hello/Fabien" target="_blank">check out Hello Fabien</a>.
   </p>
 </body>
 </html>
