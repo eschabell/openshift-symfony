@@ -1,23 +1,17 @@
 Symfony on OpenShift Express
 ============================
-
 This git repository helps you get up and running quickly w/ a Sympfony installation
 on OpenShift Express.
 
 
-Running on OpenShift
-----------------------------
+Install with one click
+----------------------
+[![Click to install OpenShift](http://launch-shifter.rhcloud.com/launch/light/Click to install.svg)](https://openshift.redhat.com/app/console/application_type/custom?&cartridges[]=php-5.3&initial_git_url=https://github.com/eschabell/openshift-symfony.git&name=symfonyphp)
 
-Create an account at http://openshift.redhat.com/
 
-Create a php-5.3 application (you can call your application whatever you want)
-
-    rhc-create-app -a symfonyphp -t php-5.3 --from-code git://github.com/eschabell/openshift-symfony.git
-    
 That's it, you can now checkout your application at:
 
     http://sympfonyphp-$your_domain.rhcloud.com
-
 
 NOTES:
 
