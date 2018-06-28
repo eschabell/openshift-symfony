@@ -1,3 +1,6 @@
+Update: June 2018 moved to [Gitlab](https://gitlab.com/eschabell/openshift-symfony)
+
+
 Symfony on OpenShift Express
 ============================
 This git repository helps you get up and running quickly w/ a Sympfony installation
